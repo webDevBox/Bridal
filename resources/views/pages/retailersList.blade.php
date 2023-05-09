@@ -247,7 +247,9 @@
                                     </a>
                                 </li>
                                 <li class="preheader-wishlist hidden-sm hidden-xs">
-                                    <a data-property="wishlistheader" href="{{ route('login_form') }}"
+                                    {{-- <a data-property="wishlistheader" href="{{ route('login_form') }}"
+                                        aria-haspopup="true" aria-expanded="false" aria-label="Log-in"> --}}
+                                    <a data-property="wishlistheader" href="/admin"
                                         aria-haspopup="true" aria-expanded="false" aria-label="Log-in">
                                         <i class="fa fa-sign-in" style="font-size:24px" aria-hidden="true"></i>
                                     </a>
